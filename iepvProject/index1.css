@@ -1,0 +1,82 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+section {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+.btn1 {
+  margin-left: 20%;
+  margin-top: 20%;
+  background: #b88b5c;
+  border-radius: 10px;
+  width: 15%;
+}
+.btn1:hover {
+  background-color: #8f5207;
+}
+.imgEstampa {
+  margin-top: 3%;
+  margin-left: 70%;
+  padding: 0;
+}
+.imgIepv {
+  margin-top: -30%;
+  margin-left: 10%;
+  padding: 0;
+  height: 2%;
+}
+.divImg {
+    margin-top: 9.5%;
+    margin-left: 163.5%;
+    padding: 0;
+    height: 200%;
+}
+.versiculo {
+  color: #ffffff;
+  margin-left: 7%;
+  /* text-align: center; */
+  font-size: 0.8rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-in-out; /* Adjust animation duration and timing here */
+}
+
+.typing-demo {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
